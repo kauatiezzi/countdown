@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --black: #4d4c59;
+  --purple: #6c63ff;
+  --white: #ffff;
+  --light-grey: #c8c8c8;
+  --text-color: #9c9ab6;
+}
+
+body {
+  background-color: var(--white);
+}
+
+#countdown-page {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  line-height: 50px;
+  float: left;
+  text-align: center;
+}
+
+#countdown {
+  font-size: 3em;
+  font-weight: 100;
+  color: var(--text-color);
+  padding: 20px;
+  width: 800px;
+  color: var(--text-color);
+}
+
+#countdown div {
+  font-family: "Poppins";
+  display: inline-block;
+  color: #4d4c59;
+  font-size: 100px;
+  font-weight: 500;
+  min-width: 90px;
+  padding: 15px;
+  margin-top: 35px;
+}
+
+#countdown div span {
+  color: var(--light-grey);
+  display: block;
+  margin-top: 15px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.countdown-texts h1 {
+  font-family: "Poppins";
+  font-size: 56px;
+  color: #6c63ff;
+  font-weight: 900;
+}
+
+.countdown-texts p {
+  font-family: "Poppins";
+  font-size: 20px;
+  color: #6c63ff;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.countdown-texts button {
+  background-color: #6c63ff;
+  color: white;
+  font-size: 20px;
+  font-family: "Poppins";
+  border-radius: 5px;
+  border: none;
+  padding: 20px;
+  width: 200px;
+  margin: 10px;
+}
