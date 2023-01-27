@@ -33,7 +33,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O projeto partiu de um desafio promovido pela RocketSeat afim da criação do SocialTree.
 
-- [Acesse o projeto finalizado, online.](https://kauatiezzi.github.io/Countdown/)
+- [Acesse o projeto finalizado, online.](https://kauatiezzi.github.io/countdown/)
 
 ---
 
